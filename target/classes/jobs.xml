@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quartz xmlns="http://www.opensymphony.com/quartz/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opensymphony.com/quartz/JobSchedulingData http://www.opensymphony.com/quartz/xml/job_scheduling_data_1_5.xsd"
+	version="1.5">
+	<!-- CRON时间规则：[秒][分][时][日][月][周][年]
+	##################################################
+	 -->
+	 <!-- 周六执行 -->
+	 <!-- 药监局 -->
+	<!-- <job>
+		<job-detail>
+			<name>SfdaMallJob</name>
+			<group>CrawlerSchedler</group>
+			<job-class>com.glorypty.scheduler.SfdaMallJob</job-class>
+			<volatility>false</volatility>
+			<durability>false</durability>
+			<recover>false</recover>
+		</job-detail>
+		<trigger>
+			<cron>
+				<name>SfdaMallTrigger</name>
+				<group>CrawlerSchedler</group>
+				<description></description>
+				<job-name>SfdaMallJob</job-name>
+				<job-group>CrawlerSchedler</job-group>				
+				<cron-expression>0 0 1 ? * SAT</cron-expression>
+			</cron>
+		</trigger>
+	</job>  -->
+	
+	<!-- 周日执行 -->
+	<!-- 好药师网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>EHaoYaoJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.EHaoYaoJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>EHaoYaoTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>EHaoYaoJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 1 ? * SUN</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	
+	<!-- 周一执行 -->
+	<!-- 中国医药信息网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>CpiJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.CpiJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>CpiTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>CpiJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 1 ? * MON</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	<!-- 100医药网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>Yiyao100Job</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.Yiyao100Job</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>Yiyao100Trigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>Yiyao100Job</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 3 ? * MON</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	
+	<!-- 周二执行 -->
+	<!-- 米内网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>MenetJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.MenetJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>MenetTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>MenetJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 1 ? * TUE</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	<!-- 百度虫 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>BaiduyyJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.BaiduyyJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>BaiduyyTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>BaiduyyJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 3 ? * TUE</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	<!-- 周三执行 -->
+	<!-- 39健康网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>DrugJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.DrugJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>DrugTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>DrugJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 1 ? * WED</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	<!-- 药房网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>YaofangwangJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.YaofangwangJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>YaofangwangTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>YaofangwangJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 3 ? * WED</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	
+	<!-- 周四执行 -->
+	<!-- 医药界网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>YiyaojieJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.YiyaojieJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>YiyaojieTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>YiyaojieJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 1 ? * THU</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	<!-- 医药联盟网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>YiyaolmJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.YiyaolmJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>YiyaolmTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>YiyaolmJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 3 ? * THU</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	
+	<!-- 周五执行 -->
+	<!-- 医药公信网网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>Yao1Job</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.Yao1Job</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>Yao1JobTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>Yao1Job</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 1 ? * FRI</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	<!-- 环球医药网 -->
+<!-- 	<job> -->
+<!-- 		<job-detail> -->
+<!-- 			<name>QgyyzsJob</name> -->
+<!-- 			<group>CrawlerSchedler</group> -->
+<!-- 			<job-class>com.glorypty.scheduler.QgyyzsJob</job-class> -->
+<!-- 			<volatility>false</volatility> -->
+<!-- 			<durability>false</durability> -->
+<!-- 			<recover>false</recover> -->
+<!-- 		</job-detail> -->
+<!-- 		<trigger> -->
+<!-- 			<cron> -->
+<!-- 				<name>QgyyzsTrigger</name> -->
+<!-- 				<group>CrawlerSchedler</group> -->
+<!-- 				<description></description> -->
+<!-- 				<job-name>QgyyzsJob</job-name> -->
+<!-- 				<job-group>CrawlerSchedler</job-group>				 -->
+<!-- 				<cron-expression>0 0 3 ? * FRI</cron-expression> -->
+<!-- 			</cron> -->
+<!-- 		</trigger> -->
+<!-- 	</job> -->
+	<!-- 慧聪网供应信息 -->
+	<job>
+		<job-detail>
+			<name>HC360Job</name>
+			<group>CrawlerSchedler</group>
+			<job-class>com.glorypty.scheduler.HC360Job</job-class>
+			<volatility>false</volatility>
+			<durability>false</durability>
+			<recover>false</recover>
+		</job-detail>
+		<trigger>
+			<cron>
+				<name>HC360Trigger</name>
+				<group>CrawlerSchedler</group>
+				<description></description>
+				<job-name>HC360Job</job-name>
+				<job-group>CrawlerSchedler</job-group>				
+				<cron-expression>0 0 18 ? * *</cron-expression>
+			</cron>
+		</trigger>
+	</job>
+	
+	<!-- 慧聪网求购信息 -->
+	<job>
+		<job-detail>
+			<name>HC360QgJob</name>
+			<group>CrawlerSchedler</group>
+			<job-class>com.glorypty.scheduler.HC360QgJob</job-class>
+			<volatility>false</volatility>
+			<durability>false</durability>
+			<recover>false</recover>
+		</job-detail>
+		<trigger>
+			<cron>
+				<name>HC360QgTrigger</name>
+				<group>CrawlerSchedler</group>
+				<description></description>
+				<job-name>HC360QgJob</job-name>
+				<job-group>CrawlerSchedler</job-group>				
+				<cron-expression>0 0 12 ? * *</cron-expression>
+			</cron>
+		</trigger>
+	</job>
+	
+	<!-- 药路通供应信息 -->
+	<job>
+		<job-detail>
+			<name>YaolutongGyJob</name>
+			<group>CrawlerSchedler</group>
+			<job-class>com.glorypty.scheduler.YaolutongGyJob</job-class>
+			<volatility>false</volatility>
+			<durability>false</durability>
+			<recover>false</recover>
+		</job-detail>
+		<trigger>
+			<cron>
+				<name>YaolutongGyTrigger</name>
+				<group>CrawlerSchedler</group>
+				<description></description>
+				<job-name>YaolutongGyJob</job-name>
+				<job-group>CrawlerSchedler</job-group>				
+				<cron-expression>0 0 1 ? * *</cron-expression>
+			</cron>
+		</trigger>
+	</job>
+</quartz>
